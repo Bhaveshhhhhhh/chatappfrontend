@@ -16,7 +16,7 @@ const Join = () => {
     <div className="JoinPage">
       <div className="JoinContainer">
         <img src={logo} alt="logo" />
-        <h1>Chat App</h1>
+        <h1>Chatter Box</h1>
         <input
           onChange={(e) => setName(e.target.value)}
           placeholder="Enter Your Name"
